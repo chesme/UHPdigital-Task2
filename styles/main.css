@@ -1,0 +1,170 @@
+body {
+  font-family: 'Open Sans';
+}
+
+body .background-triangle {
+  -webkit-clip-path: polygon(33% 0, 100% 0, 100% 100%);
+          clip-path: polygon(33% 0, 100% 0, 100% 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#083ac1), color-stop(#0062d8), color-stop(#0085e8), color-stop(#37a7f2), to(#74c7f9));
+  background-image: linear-gradient(to right, #083ac1, #0062d8, #0085e8, #37a7f2, #74c7f9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body .primary {
+  color: #ffffff;
+}
+
+body .uhpdark {
+  color: #002041;
+}
+
+body .uhpmed {
+  color: #004d7a;
+}
+
+body .uhplight {
+  color: #00a5ea;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #002041;
+}
+
+header .navbar-color-swaped {
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+}
+
+header .nav-item-border-swap {
+  border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+header .nav-item-border-swaped {
+  border-bottom: 4px solid #002041;
+}
+
+header .nav-link-color-swaped {
+  color: #002041;
+}
+
+header .gradient-button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#0048d2), color-stop(#0062dd), color-stop(#0078e3), color-stop(#008ce5), to(#019fe4));
+  background-image: linear-gradient(to right, #0048d2, #0062dd, #0078e3, #008ce5, #019fe4);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px 8px 24px;
+  color: #ffffff;
+}
+
+#our-services a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#our-services .card-gradient-background {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#5b3bff), color-stop(#0074ff), color-stop(#0098ff), color-stop(#00b3ff), to(#2ecaf0));
+  background-image: linear-gradient(to left top, #5b3bff, #0074ff, #0098ff, #00b3ff, #2ecaf0);
+}
+
+#our-services .card-footer {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  #herbalife-swap {
+    content: url("../images/herbalife-iphone.png");
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #herbalife-swap {
+    content: url("../images/herbalife-dual-iphone.png");
+  }
+}
+
+@media (min-width: 992px) {
+  #herbalife-swap {
+    content: url("../images/herbalife-dual-iphone.png");
+  }
+}
+
+@media (min-width: 1200px) {
+  #herbalife-swap {
+    content: url("../images/herbalife-dual-iphone.png");
+  }
+}
+
+#facts p {
+  line-height: 0.8em;
+}
+
+#news .card {
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#news .card-footer {
+  background-color: transparent;
+  border: none;
+}
+
+#showcase a {
+  background-color: transparent;
+  border: none;
+}
+
+footer {
+  background-color: #002041;
+  border-top: #004d7a solid 1px;
+  border-bottom: #00a5ea solid 1px;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00a5ea;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #004d7a;
+}
+
+footer span {
+  color: #ffffff;
+}
+
+footer #backtotop {
+  cursor: pointer;
+  margin-bottom: -1px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+/*# sourceMappingURL=main.css.map */
